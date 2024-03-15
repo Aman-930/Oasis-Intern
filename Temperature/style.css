@@ -20,8 +20,9 @@ body {
 
 .cover {
     position: relative;
-    bottom: 580px;
-    display: inline-flex;
+    top: 70px;
+    left: 360px;
+    display: flex;
     justify-content: center;
     /* align-items: center; */
     height: 550px;

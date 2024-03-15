@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b28016cb4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Aman_logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#info">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Project">Portfolio</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="text">
+                <p>“Web development is the art of turning ideas<br>into digital experiences that shape the world.”</p>
+                <h1>Hi, I'm <span>Aman</span> from <br> India and I'm a <br></h1>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+    <div id="info">
+        <div class="contain">
+            <div class="row">
+                <div class="about1">
+                    <img src="akss1.jpg">
+                </div>
+                <div class="about2">
+                    <h2 class="title">About Me</h2>
+                    <p>Hii, Visitor My name is Aman as I have mentioned above there is nothing too much about me that I can tell you but I want to tell you something about myself and how I started my coding journey I came across it while I was in 10th standard after that I started to dive into it and I am passionate about my work and coding.</p>
+
+                    <div class="tab">
+                        <p class="parts active" onclick="opentab('skills')">Skills</p>
+                        <p class="parts" onclick="opentab('Exp')">Experience</p>
+                        <p class="parts" onclick="opentab('Edu')">Education</p>
+                    </div>
+                    <div class="contents activetab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Web Designer</span><br>Web app Designer</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="Exp">
+                        <ul>
+                            <li><span>2023-Current</span><br>Intership at Oasis Infobyte</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="Edu">
+                        <ul>
+                            <li><span>2022-Current</span><br>BCA from United Institue Of Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services</h2>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the design of websites. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------Project---------------------- -->
+    <div id="Project">
+        <div class="container">
+            <h2 class="sub-title">My Projects</h2>
+            <div class="project-list">
+                <div class="Project">
+                    <img src="Landing.jpg">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>This is my first porject which I did after<br>learning HTML & CSS.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Project">
+                    <img src="Tribute.jpg">
+                    <div class="layer">
+                        <h3>Tribute Page</h3>
+                        <p>This is my second porject which I did after<br>learning HTML & CSS.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Project">
+                    <img src="temperature-converter.jpeg">
+                    <div class="layer">
+                        <h3>Temperature Converter<br>Page</h3>
+                        <p>This is my first porject which I did after<br>learning HTML, CSS & Javascript(JS)</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------Contact--------------------- -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="whole">
+                    <h2 class="Sub">Contact Me</h2>
+                    <p><i class="fa-solid fa-envelope"></i> Contactme@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9301245789</p>
+                    <div class="socials">
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------Footer----------------- -->
+    <footer>
+        <div id="copyright">
+            <p>This Site Copyright &copy belongs to Aman</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script>
+    var tablinks = document.getElementsByClassName("parts");
+    var contents = document.getElementsByClassName("contents");
+
+    function opentab(tabname){
+        for(tablinks of tablinks){
+            tablinks.classList.remove("active");
+        }
+        for(contents of contents){
+            contents.classList.remove("activetab");
+        }
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("activetab");
+    }
+  </script>
+</body>
+</html>

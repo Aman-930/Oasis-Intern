@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #080808;
+}
+.img{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 200px;
+    height: 400px;
+    width: 400px;
+    color: white;
+    background-image: url(Atal\ 1.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+}
+span.details h1{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    left: 310px;
+    bottom: 280px;
+    color: white;
+    font-size: 40px;
+}
+span.details h2{
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 265px;
+    left: 910px;
+    font-size: 35px;
+}
+span.details h3{
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 250px;
+    left: 920px;
+    font-size: 20px;
+}
+.Thoughts{
+    position: relative;
+    bottom: 180px;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+
+}
+.para{
+    color: white;
+    /* text-align: center; */
+    width: 1050px;
+    font-size: 21px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    /* font-weight: 900px; */
+
+}
+.para1{
+    color: white;
+    width: 1050px;
+    font-size: 21px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+}
+.Speech h2{
+    color: white;
+    width: 1050px;
+    font-size: 35px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    text-decoration: underline;
+}
+.Speech p{
+    color: white;
+    width: 1050px;
+    font-size: 21px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    font-style: italic;
+    font-weight: bold;
+}
+.Awards h2{
+    color: white;
+    width: 1050px;
+    font-size: 35px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    text-decoration: underline;
+}
+.Awards p{
+    color: white;
+    width: 1050px;
+    font-size: 21px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+}
+.Death h2{
+    color: white;
+    width: 1050px;
+    font-size: 35px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    text-decoration: underline;
+}
+.Death p{
+    color: white;
+    width: 1050px;
+    font-size: 21px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+}
+.Reaction h2{
+    color: white;
+    width: 1050px;
+    font-size: 35px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    text-decoration: underline;
+}
+.Reaction p{
+    color: white;
+    width: 1050px;
+    font-size: 21px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+}
+.Works h2{
+    color: white;
+    width: 1050px;
+    font-size: 35px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    text-decoration: underline;
+}
+.Works p{
+    color: white;
+    width: 1050px;
+    font-size: 21px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+}
+.Poem h2{
+    color: white;
+    width: 1050px;
+    font-size: 35px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    text-decoration: underline;
+}
+.Poem p{
+    color: white;
+    width: 1050px;
+    font-size: 30px;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    font-style: italic;
+}

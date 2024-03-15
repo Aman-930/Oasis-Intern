@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 90px;
+    background-color: #0b0a0d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+h1{
+    position: relative;
+    left: 200px;
+}
+.navbar{
+    padding: 0 50px;
+    background-image: url(ship.jpg);
+    color: white;
+    font-weight: 900;
+    -webkit-text-stroke: 0.2px #1bcc18;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    opacity: 1.1;
+}
+.navbar nav ul li{
+    line-height: 80px;
+    font-size: 20px;
+    padding: 0px 20px;
+    display: inline-flex; 
+}
+.navbar nav ul li a{
+    height: 100%; 
+    text-decoration: none;
+    color: white;
+}
+.anime{
+    height: 65px;
+    width: 65px;
+    border: 2px solid red;
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("anime.jpg");
+    background-size: 65px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 230px;
+}
+.background{
+    box-sizing: border-box;
+    border: 3px solid #1bcc18;
+    position: absolute;
+    height: 610px;;
+    width: 1536px;
+    background-image: url(ship.jpg);
+    background-size: 1536px 610px;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    z-index: -1;
+}
+.content h2{
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 70px;
+    -webkit-text-stroke: 0.7px #00ccaa;
+    text-shadow: rgb(0, 0, 0) 5px -2px 2px;
+    font-weight: 800;
+}
+.content h3{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    font-size:27px;
+    margin-left: 100px;
+    margin-top: 13px;
+    -webkit-text-stroke: 0.4px #00ccaa;
+    text-shadow: black 4px -2px 3px;
+    font-weight: 800;
+}
+.site{
+    background-color: #4967daa6;
+    border: 2px solid #4967daa6;
+    box-sizing: border-box;
+    border-radius: 50px;
+    position: relative;
+    width: 430px;
+    height: 90px;
+    top: 190px;
+    left:540px;
+    display: flex; 
+    justify-content: center;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.site h3 a{
+    color: white; 
+    font-size: 30px;
+    display: flex;
+    align-self: center;
+    position: relative;
+    width: 230px;
+    height: 32px;
+    top: 25px;
+    left:7px;
+    text-shadow: black 5px -2px 4px;
+    text-decoration: none;
+}
+.site:hover{
+    background-color: #49d8dad2;
+    border: 2px solid #49d8dad2;
+}
+.menu h3 a:hover{
+    background-color: #49d8dad2;
+    border: 2px solid #49d8dad2;
+}
+.navbar nav ul li a:hover{
+    color: #1bcc18;
+}
+footer{
+    background-color: #0b0a0d;
+    color: white;
+    position: relative;
+    height: 100px;
+    top: 275px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+footer h4{
+    position: relative;
+    align-items: center;
+    right: 140px;
+    top: 30px;
+    height: 30px;
+    font-size: 19px;
+}
+footer h3 {
+    position: relative;
+    align-items: center;
+    top: 40px;
+    height: 30px;
+
+}
